@@ -1,0 +1,58 @@
+body{
+    background: linear-gradient( skyblue 20%, blue 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header{
+    background-color: white;
+    width: 100%;
+    font-family: 'Shadows Into Light', cursive
+} 
+.result{
+    border: 5px solid white;
+    padding: 10px;
+    margin-top: 20px;
+}
+#webcam,#Snapshot{
+    width: 310px;
+    height: 300px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 18px white;
+}
+.result label{
+    background: white;
+    width: 310px;
+    padding: 10px;
+    box-shadow: 5px 5px 18px white;
+    margin-bottom: 0;
+    font-family: 'Shadows Into Light', cursive;
+    font-size:20px;
+}
+
+.result button{
+    width: 310px;
+    padding: 10px;
+    box-shadow: 5px 5px 18px white;
+    margin-top:0;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+}
+#ans{
+    margin:20px;
+    background: white;
+    font-family: 'Shadows Into Light', cursive;
+    border-radius: 20px;
+}
+#ans img{
+    width:70px;
+}
+#footer{
+    font-family:'Shadows Into Light', cursive;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    background: grey;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+}
